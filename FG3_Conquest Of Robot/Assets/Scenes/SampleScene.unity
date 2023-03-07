@@ -218,6 +218,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 4965374198252440452, guid: 7cc49f3eeb4db0c4999f1741629399a6, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965374198252440452, guid: 7cc49f3eeb4db0c4999f1741629399a6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965374198252440452, guid: 7cc49f3eeb4db0c4999f1741629399a6, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8083032368131126479, guid: 7cc49f3eeb4db0c4999f1741629399a6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -271,6 +283,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1357572119183623535, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357572119183623535, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357572119183623535, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21076608
+      objectReference: {fileID: 0}
     - target: {fileID: 5223679883560399099, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
       propertyPath: m_Name
       value: aaaaa
@@ -281,11 +305,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7667880248296982433, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.43960175
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7667880248296982433, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.888217
+      value: 2.04
       objectReference: {fileID: 0}
     - target: {fileID: 7667880248296982433, guid: 01b4940b34dd6324091145778ff7dca5, type: 3}
       propertyPath: m_LocalPosition.z
