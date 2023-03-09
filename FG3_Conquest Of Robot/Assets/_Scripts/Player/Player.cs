@@ -12,8 +12,8 @@ public class Player : MonoBehaviour
         Instance = this;
     }
 
-    /*public Animator anim;
-    private bool moving;*/
+    public Animator anim;
+    private bool moving;
 
     public float moveSpeed = 5f;
     Vector2 moveInput;
@@ -23,13 +23,13 @@ public class Player : MonoBehaviour
     void Start()
     {
         this.playerController = GetComponent<PlayerController>();
-        //this.anim = GetComponent<Animator>();
+        this.anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         this.GetInput();
-        //this.Animate();
+        this.Animate();
     }
 
     private void GetInput()
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         playerController.Move(moveVelocity);
     }
 
-    /*private void Animate()
+    private void Animate()
     {
         this.moving = (Mathf.Abs(this.moveInput.normalized.magnitude) > .1f) ? true : false;
         if (this.moving)
@@ -48,5 +48,5 @@ public class Player : MonoBehaviour
             this.anim.SetFloat("Y", this.moveInput.y);
         }
         this.anim.SetBool("Moving", this.moving);
-    }*/
+    }
 }
