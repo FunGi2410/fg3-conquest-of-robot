@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public Animator anim;
     private bool moving;
 
-    public float moveSpeed = 5f;
+    public float moveSpeed;
     Vector2 moveInput;
 
     PlayerController playerController;
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     {
         this.moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 moveVelocity = this.moveInput.normalized * this.moveSpeed;
-        playerController.Move(moveVelocity);
+        playerController.Move(moveVelocity); 
     }
 
     private void Animate()
