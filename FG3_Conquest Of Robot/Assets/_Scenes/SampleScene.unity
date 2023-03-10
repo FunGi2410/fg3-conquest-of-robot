@@ -228,11 +228,6 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
---- !u!95 &984136213 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1409920680939249289, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-  m_PrefabInstance: {fileID: 9104127799154682333}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9104127799154682333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,6 +235,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2024917122, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3409962910841751228, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -284,37 +283,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5315175132607490429, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 984136213}
-    - target: {fileID: 5315175132607490429, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7130732684176099309, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398820396543933587, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.192
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398820396543933587, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398820396543933587, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398820396543933587, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398820396543933587, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9035920315077489516, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: cam
