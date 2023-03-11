@@ -235,10 +235,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2024917122, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3409962910841751228, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -283,9 +279,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4085486128035321444, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
+      propertyPath: startingGun
+      value: 
+      objectReference: {fileID: 7090833824537833251, guid: 9a9a9646137eebe41b7836e02c47ba2d, type: 3}
     - target: {fileID: 7130732684176099309, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451990723012685198, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 8552981727773619828, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
+      propertyPath: fireRate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552981727773619828, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
+      propertyPath: muzzleVelocity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9035920315077489516, guid: 7efb68b977c17b2458ca706c4c90e5e2, type: 3}
       propertyPath: cam

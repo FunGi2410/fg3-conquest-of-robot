@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerController))]
+[RequireComponent(typeof(GunController))]
 public class Player : MonoBehaviour
 {
     public static Player Instance { get; private set; }
@@ -19,10 +20,12 @@ public class Player : MonoBehaviour
     Vector2 moveInput;
 
     PlayerController playerController;
+    GunController gunController;
 
     void Start()
     {
         this.playerController = GetComponent<PlayerController>();
+        this.gunController = GetComponent<GunController>();
         this.anim = GetComponent<Animator>();
     }
 
@@ -30,6 +33,15 @@ public class Player : MonoBehaviour
     {
         this.GetInput();
         this.Animate();
+        this.Attack();
+    }
+
+    private void Attack()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            this.gunController.Shoot();
+        }
     }
 
     private void GetInput()
