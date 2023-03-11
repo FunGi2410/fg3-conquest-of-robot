@@ -19,15 +19,15 @@ public class Enemy : MonoBehaviour
         StartCoroutine(this.UpdatePath());
     }
 
-    private void Update()
+    /*private void Update()
     {
-        //this.pathFinder.SetDestination(this.target.position);
-    }
+        this.pathFinder.SetDestination(this.target.position);
+    }*/
 
 
     IEnumerator UpdatePath()
     {
-        float refresRate = 0.3f;
+        float refresRate = 0.1f;
 
         while (this.target != null)
         {
